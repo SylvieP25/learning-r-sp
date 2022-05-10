@@ -113,15 +113,15 @@ median(women$weight)
 read.table(file = "data/women.csv", header = TRUE, sep = ",")
 
 
-read.csv(file="women.csv")
-women_csv<-read.csv("women.csv")
+#read.csv(file="women.csv")
+#women_csv<-read.csv("women.csv")
 read.csv("data/women.csv")
-read.table("data/women.csv") 
+#read.table("data/women.csv") 
 install.packages("openxlsx")
 library(openxlsx)
 read.xlsx("data/women.xlsx")
 women_xlsx<-read.xlsx("data/women.xlsx")
-read.csv("women.csv")
+#read.csv("women.csv")
 women$height
 women$weight
 
